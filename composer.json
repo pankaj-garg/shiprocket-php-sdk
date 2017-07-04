@@ -1,0 +1,30 @@
+{
+  "name": "bfrs/shiprocket-php",
+  "description": "Shiprocket API client for PHP built on top of Guzzle 6",
+  "keywords": [
+    "shiprocket",
+    "shiprocket.in",
+    "api",
+    "guzzle"
+  ],
+  "authors": [
+    {
+      "name": "Pankaj Garg",
+      "homepage": "http://pankajgarg.in/"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Shiprocket\\": [
+        "src"
+      ]
+    }
+  },
+  "require": {
+    "guzzlehttp/guzzle": "~6.0",
+    "php": ">= 5.6"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "4.0.*"
+  }
+}
